@@ -1,0 +1,6 @@
+(def first (+ 6b6 7b7))
+(def second a (/ a 10b4))
+(def third a b (* a (/ b (+ a b))))
+(+ 6b6 25b5)
+(+ (first) (second 20b8))
+(* (second 26b8) (third (first) 6b6))  
