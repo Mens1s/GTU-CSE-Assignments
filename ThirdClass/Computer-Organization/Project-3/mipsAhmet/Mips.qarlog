@@ -1,0 +1,42 @@
+Quartus Prime Archive log --	C:/mipsAhmet/Mips.qarlog
+
+Archive:	C:/mipsAhmet/Mips.qar
+Date:		Fri Jan 19 10:59:53 2024
+Quartus Prime		18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/mipsAhmet/Mips.qpf
+C:/mipsAhmet/Mips.qsf
+C:/mipsAhmet/instructions.mem
+C:/mipsAhmet/memory.mem
+C:/mipsAhmet/registers.mem
+C:/mipsAhmet/src/Add_32Bit.v
+C:/mipsAhmet/src/Alu.v
+C:/mipsAhmet/src/Alu_control.v
+C:/mipsAhmet/src/And_32Bit.v
+C:/mipsAhmet/src/Bus_for_jump.v
+C:/mipsAhmet/src/Control_for_Jr.v
+C:/mipsAhmet/src/Control_unit.v
+C:/mipsAhmet/src/FullAdder_16Bit_CLA.v
+C:/mipsAhmet/src/FullAdder_32Bit.v
+C:/mipsAhmet/src/FullAdder_4Bit_CLA.v
+C:/mipsAhmet/src/Instruction_block.v
+C:/mipsAhmet/src/LessThan_32Bit.v
+C:/mipsAhmet/src/Memory_block.v
+C:/mipsAhmet/src/Mips.v
+C:/mipsAhmet/src/Mips_tb.v
+C:/mipsAhmet/src/Mux2x1.v
+C:/mipsAhmet/src/Mux2x1_5byte.v
+C:/mipsAhmet/src/Mux8x1.v
+C:/mipsAhmet/src/Nor_32Bit.v
+C:/mipsAhmet/src/Or_32Bit.v
+C:/mipsAhmet/src/Register_block.v
+C:/mipsAhmet/src/Shift_left_2.v
+C:/mipsAhmet/src/Sign_extend.v
+C:/mipsAhmet/src/Substract_32Bit.v
+C:/mipsAhmet/src/Xor_32Bit.v
+c:/intelfpga_lite/18.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 31 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
