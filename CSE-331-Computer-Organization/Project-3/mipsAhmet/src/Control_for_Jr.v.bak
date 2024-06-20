@@ -1,0 +1,21 @@
+module Control_for_Jr(
+    output reg [31:0] goToAddress,
+    input [31:0] read_data1,
+    input [31:0] jumpAddress,
+    input [0:0] isJR
+);
+
+    always @(*)
+    begin
+        if(isJR == 1'b1)
+        begin
+            goToAddress = read_data1;
+        end
+        else
+        begin
+            goToAddress = jumpAddress;
+        end
+    end
+
+
+endmodule

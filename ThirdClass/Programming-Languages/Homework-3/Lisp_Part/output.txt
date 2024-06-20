@@ -1,6 +1,0 @@
-#Function
-#Function
-#Function
-Result : 6b1
-Result : 3b1
-Result : 13b15

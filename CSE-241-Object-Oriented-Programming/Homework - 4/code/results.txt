@@ -1,0 +1,531 @@
+Testing operator << overloading 
+
+(TEST1)Obj 1 : 
+day : 1 Month : 1
+day : 3 Month : 2
+day : 14 Month : 3
+day : 16 Month : 4
+day : 21 Month : 5
+
+(TEST2)Obj 2 : 
+day : 25 Month : 6
+day : 15 Month : 7
+day : 16 Month : 7
+day : 2 Month : 9
+day : 3 Month : 2
+day : 1 Month : 10
+
+Testing operator == and != overloading 
+
+(TEST1)set1 ==  eqaulSet1 they are different sets but same objects also includes duplicates too
+They are equal!
+
+(TEST2)set1 !=  eqaulSet1 they are different
+They are not equal!
+
+Testing remove functions... 
+
+(3 TEST)Before remove func... (Also testing removing non member dayofyear)
+day : 1 Month : 1
+day : 3 Month : 2
+day : 14 Month : 3
+day : 16 Month : 4
+day : 21 Month : 5
+
+Removing : 
+
+After remove func...
+day : 3 Month : 2
+day : 14 Month : 3
+day : 16 Month : 4
+(2 TEST)Testing size functions... 
+
+Set1 size : 3
+
+Set2 size : 6
+
+Testing operartor+ overloading...
+
+Before adding an dayofyear element... (Also try adding 3 same dayofyear)
+day : 3 Month : 2
+day : 14 Month : 3
+day : 16 Month : 4
+
+(4 TEST)Adding ... 15/06 twice..
+After adding...
+
+day : 16 Month : 7
+day : 15 Month : 7
+day : 25 Month : 6
+day : 3 Month : 2
+day : 14 Month : 3
+day : 16 Month : 4
+
+(2 TEST)Testing operartor+ overloading...
+
+Before additional op: 
+(1. TEST)set1 : 
+day : 16 Month : 7
+day : 15 Month : 7
+day : 25 Month : 6
+day : 3 Month : 2
+day : 14 Month : 3
+day : 16 Month : 4
+(1. TEST)set2 : 
+day : 25 Month : 6
+day : 15 Month : 7
+day : 16 Month : 7
+day : 2 Month : 9
+day : 3 Month : 2
+day : 1 Month : 10
+
+(1. TEST)Adding...
+(1. TEST)After adding...
+
+day : 16 Month : 7
+day : 15 Month : 7
+day : 25 Month : 6
+day : 3 Month : 2
+day : 14 Month : 3
+day : 16 Month : 4
+day : 2 Month : 9
+day : 1 Month : 10
+res additional op: 
+(2. TEST)set1 : 
+day : 16 Month : 7
+day : 15 Month : 7
+day : 25 Month : 6
+day : 3 Month : 2
+day : 14 Month : 3
+day : 16 Month : 4
+day : 2 Month : 9
+day : 1 Month : 10
+(2. TEST)set2 : 
+day : 25 Month : 6
+day : 15 Month : 7
+day : 16 Month : 7
+day : 2 Month : 9
+day : 3 Month : 2
+day : 1 Month : 10
+
+(2. TEST)Adding...
+(2. TEST)After adding...
+
+Testing operartor- overloading...
+
+Before Substraction an dayofyear element... (Also try adding 2 same dayofyear)
+day : 16 Month : 7
+day : 15 Month : 7
+day : 25 Month : 6
+day : 3 Month : 2
+day : 14 Month : 3
+day : 16 Month : 4
+
+(4 TEST)Substraction ... 15/06 twice..
+After Substraction...
+
+day : 3 Month : 2
+day : 14 Month : 3
+day : 16 Month : 4
+
+Testing operartor- overloading...
+
+Before Substraction op: 
+set1 : 
+day : 3 Month : 2
+day : 14 Month : 3
+day : 16 Month : 4
+set2 : 
+day : 25 Month : 6
+day : 15 Month : 7
+day : 16 Month : 7
+day : 2 Month : 9
+day : 3 Month : 2
+day : 1 Month : 10
+
+Substraction...
+After Substraction... Difference of set...
+
+day : 14 Month : 3
+day : 16 Month : 4
+Testing operator! overloading...
+
+Set2: 
+day : 25 Month : 6
+day : 15 Month : 7
+day : 16 Month : 7
+day : 2 Month : 9
+day : 3 Month : 2
+day : 1 Month : 10
+Complement of set : 
+
+day : 1 Month : 1
+day : 2 Month : 1
+day : 3 Month : 1
+day : 4 Month : 1
+day : 5 Month : 1
+day : 6 Month : 1
+day : 7 Month : 1
+day : 8 Month : 1
+day : 9 Month : 1
+day : 10 Month : 1
+day : 11 Month : 1
+day : 12 Month : 1
+day : 13 Month : 1
+day : 14 Month : 1
+day : 15 Month : 1
+day : 16 Month : 1
+day : 17 Month : 1
+day : 18 Month : 1
+day : 19 Month : 1
+day : 20 Month : 1
+day : 21 Month : 1
+day : 22 Month : 1
+day : 23 Month : 1
+day : 24 Month : 1
+day : 25 Month : 1
+day : 26 Month : 1
+day : 27 Month : 1
+day : 28 Month : 1
+day : 29 Month : 1
+day : 30 Month : 1
+day : 31 Month : 1
+day : 1 Month : 2
+day : 2 Month : 2
+day : 4 Month : 2
+day : 5 Month : 2
+day : 6 Month : 2
+day : 7 Month : 2
+day : 8 Month : 2
+day : 9 Month : 2
+day : 10 Month : 2
+day : 11 Month : 2
+day : 12 Month : 2
+day : 13 Month : 2
+day : 14 Month : 2
+day : 15 Month : 2
+day : 16 Month : 2
+day : 17 Month : 2
+day : 18 Month : 2
+day : 19 Month : 2
+day : 20 Month : 2
+day : 21 Month : 2
+day : 22 Month : 2
+day : 23 Month : 2
+day : 24 Month : 2
+day : 25 Month : 2
+day : 26 Month : 2
+day : 27 Month : 2
+day : 28 Month : 2
+day : 29 Month : 2
+day : 1 Month : 3
+day : 2 Month : 3
+day : 3 Month : 3
+day : 4 Month : 3
+day : 5 Month : 3
+day : 6 Month : 3
+day : 7 Month : 3
+day : 8 Month : 3
+day : 9 Month : 3
+day : 10 Month : 3
+day : 11 Month : 3
+day : 12 Month : 3
+day : 13 Month : 3
+day : 14 Month : 3
+day : 15 Month : 3
+day : 16 Month : 3
+day : 17 Month : 3
+day : 18 Month : 3
+day : 19 Month : 3
+day : 20 Month : 3
+day : 21 Month : 3
+day : 22 Month : 3
+day : 23 Month : 3
+day : 24 Month : 3
+day : 25 Month : 3
+day : 26 Month : 3
+day : 27 Month : 3
+day : 28 Month : 3
+day : 29 Month : 3
+day : 30 Month : 3
+day : 31 Month : 3
+day : 1 Month : 4
+day : 2 Month : 4
+day : 3 Month : 4
+day : 4 Month : 4
+day : 5 Month : 4
+day : 6 Month : 4
+day : 7 Month : 4
+day : 8 Month : 4
+day : 9 Month : 4
+day : 10 Month : 4
+day : 11 Month : 4
+day : 12 Month : 4
+day : 13 Month : 4
+day : 14 Month : 4
+day : 15 Month : 4
+day : 16 Month : 4
+day : 17 Month : 4
+day : 18 Month : 4
+day : 19 Month : 4
+day : 20 Month : 4
+day : 21 Month : 4
+day : 22 Month : 4
+day : 23 Month : 4
+day : 24 Month : 4
+day : 25 Month : 4
+day : 26 Month : 4
+day : 27 Month : 4
+day : 28 Month : 4
+day : 29 Month : 4
+day : 30 Month : 4
+day : 1 Month : 5
+day : 2 Month : 5
+day : 3 Month : 5
+day : 4 Month : 5
+day : 5 Month : 5
+day : 6 Month : 5
+day : 7 Month : 5
+day : 8 Month : 5
+day : 9 Month : 5
+day : 10 Month : 5
+day : 11 Month : 5
+day : 12 Month : 5
+day : 13 Month : 5
+day : 14 Month : 5
+day : 15 Month : 5
+day : 16 Month : 5
+day : 17 Month : 5
+day : 18 Month : 5
+day : 19 Month : 5
+day : 20 Month : 5
+day : 21 Month : 5
+day : 22 Month : 5
+day : 23 Month : 5
+day : 24 Month : 5
+day : 25 Month : 5
+day : 26 Month : 5
+day : 27 Month : 5
+day : 28 Month : 5
+day : 29 Month : 5
+day : 30 Month : 5
+day : 31 Month : 5
+day : 1 Month : 6
+day : 2 Month : 6
+day : 3 Month : 6
+day : 4 Month : 6
+day : 5 Month : 6
+day : 6 Month : 6
+day : 7 Month : 6
+day : 8 Month : 6
+day : 9 Month : 6
+day : 10 Month : 6
+day : 11 Month : 6
+day : 12 Month : 6
+day : 13 Month : 6
+day : 14 Month : 6
+day : 15 Month : 6
+day : 16 Month : 6
+day : 17 Month : 6
+day : 18 Month : 6
+day : 19 Month : 6
+day : 20 Month : 6
+day : 21 Month : 6
+day : 22 Month : 6
+day : 23 Month : 6
+day : 24 Month : 6
+day : 26 Month : 6
+day : 27 Month : 6
+day : 28 Month : 6
+day : 29 Month : 6
+day : 30 Month : 6
+day : 1 Month : 7
+day : 2 Month : 7
+day : 3 Month : 7
+day : 4 Month : 7
+day : 5 Month : 7
+day : 6 Month : 7
+day : 7 Month : 7
+day : 8 Month : 7
+day : 9 Month : 7
+day : 10 Month : 7
+day : 11 Month : 7
+day : 12 Month : 7
+day : 13 Month : 7
+day : 14 Month : 7
+day : 17 Month : 7
+day : 18 Month : 7
+day : 19 Month : 7
+day : 20 Month : 7
+day : 21 Month : 7
+day : 22 Month : 7
+day : 23 Month : 7
+day : 24 Month : 7
+day : 25 Month : 7
+day : 26 Month : 7
+day : 27 Month : 7
+day : 28 Month : 7
+day : 29 Month : 7
+day : 30 Month : 7
+day : 31 Month : 7
+day : 1 Month : 8
+day : 2 Month : 8
+day : 3 Month : 8
+day : 4 Month : 8
+day : 5 Month : 8
+day : 6 Month : 8
+day : 7 Month : 8
+day : 8 Month : 8
+day : 9 Month : 8
+day : 10 Month : 8
+day : 11 Month : 8
+day : 12 Month : 8
+day : 13 Month : 8
+day : 14 Month : 8
+day : 15 Month : 8
+day : 16 Month : 8
+day : 17 Month : 8
+day : 18 Month : 8
+day : 19 Month : 8
+day : 20 Month : 8
+day : 21 Month : 8
+day : 22 Month : 8
+day : 23 Month : 8
+day : 24 Month : 8
+day : 25 Month : 8
+day : 26 Month : 8
+day : 27 Month : 8
+day : 28 Month : 8
+day : 29 Month : 8
+day : 30 Month : 8
+day : 31 Month : 8
+day : 1 Month : 9
+day : 3 Month : 9
+day : 4 Month : 9
+day : 5 Month : 9
+day : 6 Month : 9
+day : 7 Month : 9
+day : 8 Month : 9
+day : 9 Month : 9
+day : 10 Month : 9
+day : 11 Month : 9
+day : 12 Month : 9
+day : 13 Month : 9
+day : 14 Month : 9
+day : 15 Month : 9
+day : 16 Month : 9
+day : 17 Month : 9
+day : 18 Month : 9
+day : 19 Month : 9
+day : 20 Month : 9
+day : 21 Month : 9
+day : 22 Month : 9
+day : 23 Month : 9
+day : 24 Month : 9
+day : 25 Month : 9
+day : 26 Month : 9
+day : 27 Month : 9
+day : 28 Month : 9
+day : 29 Month : 9
+day : 30 Month : 9
+day : 2 Month : 10
+day : 3 Month : 10
+day : 4 Month : 10
+day : 5 Month : 10
+day : 6 Month : 10
+day : 7 Month : 10
+day : 8 Month : 10
+day : 9 Month : 10
+day : 10 Month : 10
+day : 11 Month : 10
+day : 12 Month : 10
+day : 13 Month : 10
+day : 14 Month : 10
+day : 15 Month : 10
+day : 16 Month : 10
+day : 17 Month : 10
+day : 18 Month : 10
+day : 19 Month : 10
+day : 20 Month : 10
+day : 21 Month : 10
+day : 22 Month : 10
+day : 23 Month : 10
+day : 24 Month : 10
+day : 25 Month : 10
+day : 26 Month : 10
+day : 27 Month : 10
+day : 28 Month : 10
+day : 29 Month : 10
+day : 30 Month : 10
+day : 31 Month : 10
+day : 1 Month : 11
+day : 2 Month : 11
+day : 3 Month : 11
+day : 4 Month : 11
+day : 5 Month : 11
+day : 6 Month : 11
+day : 7 Month : 11
+day : 8 Month : 11
+day : 9 Month : 11
+day : 10 Month : 11
+day : 11 Month : 11
+day : 12 Month : 11
+day : 13 Month : 11
+day : 14 Month : 11
+day : 15 Month : 11
+day : 16 Month : 11
+day : 17 Month : 11
+day : 18 Month : 11
+day : 19 Month : 11
+day : 20 Month : 11
+day : 21 Month : 11
+day : 22 Month : 11
+day : 23 Month : 11
+day : 24 Month : 11
+day : 25 Month : 11
+day : 26 Month : 11
+day : 27 Month : 11
+day : 28 Month : 11
+day : 29 Month : 11
+day : 30 Month : 11
+day : 1 Month : 12
+day : 2 Month : 12
+day : 3 Month : 12
+day : 4 Month : 12
+day : 5 Month : 12
+day : 6 Month : 12
+day : 7 Month : 12
+day : 8 Month : 12
+day : 9 Month : 12
+day : 10 Month : 12
+day : 11 Month : 12
+day : 12 Month : 12
+day : 13 Month : 12
+day : 14 Month : 12
+day : 15 Month : 12
+day : 16 Month : 12
+day : 17 Month : 12
+day : 18 Month : 12
+day : 19 Month : 12
+day : 20 Month : 12
+day : 21 Month : 12
+day : 22 Month : 12
+day : 23 Month : 12
+day : 24 Month : 12
+day : 25 Month : 12
+day : 26 Month : 12
+day : 27 Month : 12
+day : 28 Month : 12
+day : 29 Month : 12
+day : 30 Month : 12
+day : 31 Month : 12
+
+(2TEST)Testing []operator with set1 gets 2 and 1 indexes..
+Set1 : 
+day : 3 Month : 2
+day : 14 Month : 3
+day : 16 Month : 4
+Getting 2. idx 
+day : 16 Month : 4
+Getting 1. idx 
+day : 14 Month : 3

@@ -1,0 +1,31 @@
+module Mod_32Bit (
+  input clk,
+  input rst,
+  input start,
+  input [31:0] a,
+  input [31:0] b,
+  output wire [31:0] result,
+  output wire done
+);
+
+wire [31:0] temp; // Define temp as a wire
+
+Mod_cu control_unit (
+  .clk(clk),
+  .rst(rst),
+  .start(start),
+  .a(a),
+  .b(b),
+  .result(result),
+  .done(done)
+);
+
+reg [31:0] temp_reg; // Define temp_reg as a register
+Mod_dp datapath (
+  .clk(clk),
+  .rst(rst),
+  .a(a),
+  .b(b),
+  .state(control_unit.state)
+);
+endmodule

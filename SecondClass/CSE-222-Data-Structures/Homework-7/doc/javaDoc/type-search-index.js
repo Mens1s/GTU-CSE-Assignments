@@ -1,1 +1,0 @@
-typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"<Unnamed>","l":"bubbleSort"},{"p":"<Unnamed>","l":"info"},{"p":"<Unnamed>","l":"insertionSort"},{"p":"<Unnamed>","l":"Main"},{"p":"<Unnamed>","l":"mergeSort"},{"p":"<Unnamed>","l":"myMap"},{"p":"<Unnamed>","l":"quickSort"},{"p":"<Unnamed>","l":"selectionSort"}];updateSearchResults();
